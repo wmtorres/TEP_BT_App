@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+drawable button_background
+drawable card_background
+id clearButton
+id connectButton
+id deviceSpinner
+id deviceText
+id logScroll
+id logText
+id refreshButton
+id statusText
+layout activity_main
+style AppTheme

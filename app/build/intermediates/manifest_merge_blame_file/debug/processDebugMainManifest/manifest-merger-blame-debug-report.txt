@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.esp32bluetooth"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:2:5-87
+12        android:name="android.hardware.bluetooth"
+12-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:2:19-60
+13        android:required="true" />
+13-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:2:61-84
+14
+15    <uses-permission
+15-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:3:5-95
+16        android:name="android.permission.BLUETOOTH"
+16-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:3:22-65
+17        android:maxSdkVersion="30" />
+17-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:3:66-92
+18    <uses-permission
+18-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:4:5-101
+19        android:name="android.permission.BLUETOOTH_ADMIN"
+19-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:4:22-71
+20        android:maxSdkVersion="30" />
+20-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:4:72-98
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:5:5-76
+21-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:5:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+22-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:6:5-73
+22-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:6:22-70
+23    <uses-permission
+23-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:7:5-106
+24        android:name="android.permission.ACCESS_FINE_LOCATION"
+24-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:7:22-76
+25        android:maxSdkVersion="30" />
+25-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:7:77-103
+26
+27    <application
+27-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:9:5-16:19
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:label="ESP32 Bluetooth"
+30-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:9:50-81
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme"
+32-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:9:18-49
+33        android:usesCleartextTraffic="false" >
+33-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:9:82-118
+34        <activity
+34-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:10:9-15:20
+35            android:name="com.example.esp32bluetooth.MainActivity"
+35-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:10:19-47
+36            android:exported="true" >
+36-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:10:48-71
+37            <intent-filter>
+37-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:11:13-14:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:12:17-69
+38-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:12:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:13:17-77
+40-->/home/weslley/AndroidStudioProjects/BT-app/app/src/main/AndroidManifest.xml:13:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

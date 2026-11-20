@@ -1,0 +1,12 @@
+com.example.esp32bluetooth:layout/activity_main = 0x7f030000
+com.example.esp32bluetooth:id/statusText = 0x7f020007
+com.example.esp32bluetooth:style/AppTheme = 0x7f040000
+com.example.esp32bluetooth:id/logScroll = 0x7f020004
+com.example.esp32bluetooth:id/deviceText = 0x7f020003
+com.example.esp32bluetooth:id/deviceSpinner = 0x7f020002
+com.example.esp32bluetooth:id/refreshButton = 0x7f020006
+com.example.esp32bluetooth:id/logText = 0x7f020005
+com.example.esp32bluetooth:id/clearButton = 0x7f020000
+com.example.esp32bluetooth:drawable/card_background = 0x7f010001
+com.example.esp32bluetooth:id/connectButton = 0x7f020001
+com.example.esp32bluetooth:drawable/button_background = 0x7f010000
